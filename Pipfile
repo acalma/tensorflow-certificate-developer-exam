@@ -158,6 +158,7 @@ werkzeug = "==3.0.2"
 widgetsnbextension = "==4.0.10"
 wrapt = "==1.16.0"
 zipp = "==3.18.1"
+transformers = "*"
 
 [dev-packages]
 
