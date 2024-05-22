@@ -66,6 +66,7 @@ def add_history(old_hist, new_hist):
     old_hist.params = new_hist.params
     for k in old_hist.history.keys():
         old_hist.history[k].extend(new_hist.history[k])
+    return old_hist
 
 
 def save_history(history, model_name):
